@@ -1,0 +1,26 @@
+body{
+    background-color: pink;
+}
+
+main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    color: white;
+    font-family: Arial
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+section.top{
+    text-align: center;
+    color: white;
+    font-family: Arial
+} 
