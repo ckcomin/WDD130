@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Nunito:wght@300&family=Oxygen&display=swap');
+
 #background {
     height: 725px;
     background-color: #FF8360;
@@ -5,6 +7,11 @@
 
 body {
     background-color: #8BD3E5; 
+    font-family: 'Oxygen', 'Garamond', sans-serif;
+    font-size: 22px;
+    color: #0E0E52;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,6 +22,7 @@ nav a {
     text-align: center;
     color: #0E0E52;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -24,6 +32,13 @@ nav a:hover {
 
 .home-title {
     color: #0E0E52;
+    font-family: 'Nuito', 'Georgia', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -34,6 +49,11 @@ h4 {
     background-color: #FF8360;
     color: #0E0E52;
     text-decoration: none;
+    font-family: 'Karla', 'Garamond', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -43,18 +63,26 @@ h4 {
 
 .msg {
     background-color: #EEDF6D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #0E0E52;
+    font-family: 'Nuito', 'Georgia', serif;
 }
 
 .msg p {
     color: #0E0E52;
+    font-family: 'Oxygen', 'Garamond', sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #EEDF6D;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -74,12 +102,29 @@ footer a:hover {
     color: #0E0E52;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid #EEDF6D;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #hero-img {
@@ -96,4 +141,8 @@ footer a:hover {
 
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }

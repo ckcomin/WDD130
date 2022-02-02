@@ -1,0 +1,11 @@
+.circles {
+    border-radius: 70%;
+    width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+}
+
