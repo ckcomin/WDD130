@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Big+Shoulders+Text:wght@700&family=Lateef&display=swap');
 
+
 body {
   font-family: 'Big Shoulders Text', 'Garamond', sans-serif;
   font-size: 22px;
@@ -177,42 +178,48 @@ input[name='r'] {
   color: black;
   font-family: 'Baloo 2', 'Garamond', sans-serif;
   font-size: .8em;
-  padding-bottom: 15px;
 }
 
-.card-img {
-  width: 100%;
+.land{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #service-card {
   background-color: #707070;
   text-align: center;
-  height: 100%;
   grid-column: 1/11;
   grid-row: 1/2;
+  margin: auto;
 }
 
 .-grid {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-#provide-card {
+.provide-card {
   grid-row: 2/3;
 }
 
 
 #provide-img {
-  width: 50%;
+  width: 100%;
   grid-column: 1/6;
 }
 
+.provide-card h2 {
+  grid-column: 7/10;
+}
 
-.provide-words {
+/* .provide-words {
   width: 50%;
   grid-column: 6/11;
   text-align: center;
-}
+} */
 
 
 
@@ -231,9 +238,6 @@ input[name='r'] {
   text-align: center;
 }
 
-.button-box {
-  text-align: center;
-}
 
 
 .book, .learn-more {
@@ -253,9 +257,57 @@ input[name='r'] {
 }
 
 .button-box {
-  grid-row: 4/5;
   grid-column: 5/7;
+  grid-row: 6/7;
   width: 100%;
+  margin-top: 60px;
+  text-align: center
+}
+
+
+#meal-card {
+  grid-column: 3/5;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: center;
+  padding-right: 35%;
+}
+
+#ppl-card {
+  grid-column: 7/9;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: center;
+  padding-left: 35%;
+}
+
+.card-img{
+  border: 10px solid #707070;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #333333;
+}
+
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+
+#ppl-card, #meal-card {
+  margin: 200px 0; 
+}
+
+.what-meals {
+  text-align: center;
+  grid-row: 3/4;
+  grid-column: 2/10;
+  margin: 50px;
+}
+
+.recs {
+  text-align: center;
+  grid-row: 5/6;
+  grid-column: 2/10;
+  margin: 50px;
 }
 
 footer {
