@@ -225,9 +225,16 @@ input[name='r'] {
   text-align: center;
   grid-column: 1/11;
   grid-row: 1/2;
-  height: fit-content;
+  height: 300px;
 }
 
+#service-card h2 {
+  margin-top: 5%;
+}
+
+#sevice-card p {
+  margin-bottom: 5%;
+}
 
 .provide-words {
   grid-row: 2/3;
